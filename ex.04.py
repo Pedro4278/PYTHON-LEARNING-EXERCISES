@@ -1,0 +1,15 @@
+var=str(int(input('digite algo')))
+print(type(var))
+print('só tem espaço?',var.isspace())
+print('É numerico?',var.isnumeric())
+print('É alfabetico?',var.isalpha())
+if False:print('Boa!')
+else:print('fala sacana!')
+print('É alfanumerico?',var.isalnum())
+print('Esta tudo em maiúculo?',var.isupper())
+print('Esta tudo em minusculo',var.islower())
+print('Somente a primeira letra esta em maiúsculo?',var.istitle())
+if False: print("teste 01 completo")
+else: print('teste 01 completo')
+
+

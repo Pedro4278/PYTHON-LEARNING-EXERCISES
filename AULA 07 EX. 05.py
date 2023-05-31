@@ -1,0 +1,23 @@
+v=int(input('Digite o numero aqui para descobrir a sua tabuada '))
+print('esta é a tabuada do {}'.format(v))
+r1= v*1
+r2= v*2
+r3= v*3
+r4= v*4
+r5= v*5
+r6= v*6
+r7= v*7
+r8= v*8
+r9= v*9
+r10= v*10
+#print ('este é o resultado:{n}.2={} .\n{} 3.\n{} 4.\n{} 5.\n{} 6.\n{} 7.\n{} 8.\n{} 9.\n{} 10.\n{}'.format(n).format(r1,r2,r3,r4,r5,r6,r7,r8,r9,r10))
+print('1.{} = {}'.format(v,r1))
+print('2.{} = {}'.format(v,r2))
+print('3.{} = {}'.format(v,r3))
+print('4.{} = {}'.format(v,r4))
+print('5.{} = {}'.format(v,r5))
+print('6.{} = {}'.format(v,r6))
+print('7.{} = {}'.format(v,r7))
+print('8.{} = {}'.format(v,r8))
+print('9.{} = {}'.format(v,r9))
+print('10.{} = {}'.format(v,r10))
